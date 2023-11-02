@@ -3,9 +3,6 @@
 #include <string>
 using namespace std;
 
-// NET ID : AXE210038
-// NAME: AHMED ELGHAZI
-
 void outputA(string roman, long unsigned int pointer, fstream &file){ // output roman string
     file.seekp(pointer - 22); // the beginning of the line is 22 from the end
     file << roman; // output statement
